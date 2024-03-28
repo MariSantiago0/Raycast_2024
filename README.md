@@ -1,22 +1,41 @@
 # Raycast_2024
-Conceitos de Raycast, Prefabs e Destroy
+Conceitos de Raycast, Prefabs e Destroy no Unity
 
-public class raycast : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        Debug.Log("inicio");
-    }
     void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast( ray)){
-            Debug.Log("acertou");
-        }
-        else
-        {
-            Debug.Log("errou");
+        if (Input.GetMouseButtonDown(0))
+        
+            { 
+            // Quando o botão esquerdo é clicado ele vai verificar um hit do raycast
+            Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                // Quando for clicado, irá verificar primeiro a tag do gameObject
+                string tag = hit.collider.tag;
+                GameObject esfera = hit.transform.gameObject;
+                // o gameObject foi clicacado e irá fazer uma ação de acordo com a tag especifica
+                if (tag == "destroy")
+                {
+                    Debug.Log("Acertou!");
+                    Destroy(esfera);
+                } else
+                if(tag == "manter")
+                {
+                    Debug.Log("Acertou");
+                } else
+                if(tag == "mensagem") 
+                {
+                    Debug.Log("Moro numa linda bola azul, que flutua pelo espa�o");
+                }
+                // Não acertou o gameObject
+                else
+                {
+                    Debug.Log("Errou");
+                }
+            }
         }
     }
-}
+    
+<p> O Script está na camera, aonde vai ocorrer a interação com os gameObjects </p>
+
