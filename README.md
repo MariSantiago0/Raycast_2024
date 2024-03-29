@@ -33,5 +33,12 @@ Conceitos de Raycast, Prefabs e Destroy no Unity
 <p> O Script está na camera, aonde vai ocorrer a interação com os gameObjects </p>
 <h3> Tela do Jogo</h3>
 <img src="imgs/telainicial.png">
+<p> Os prefabs que foram utilizados foram baixados no asset store </p>
+<br>
+<p> Assets Baixados: </p> 
+ <li> Martelo: https://assetstore.unity.com/packages/3d/props/tools/sledge-hammer-20498 </li>
+ <li> Ambiente: https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-free-260367 </li>
+ <li> Gatos: https://assetstore.unity.com/packages/3d/characters/animals/little-friends-cartoon-animals-lite-262505 </li>
+ <br>
 <p> Link do Projeto no Drive: https://drive.google.com/file/d/1ulRud4pDE5dCI838vr6EVnxl-5obeqHA/view?usp=sharing </p>
 <p> Link do Vídeo do Projeto: https://youtu.be/IKbZMjuVUCI </p>
