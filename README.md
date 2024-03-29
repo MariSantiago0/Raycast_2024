@@ -1,5 +1,6 @@
 # Raycast_2024
 Conceitos de Raycast, Prefabs e Destroy no Unity
+<h2> Dupla: Mariana Santiago Matos & Nickolas Garcia Avelino </h2>
 
     void Update()
     {
@@ -30,6 +31,7 @@ Conceitos de Raycast, Prefabs e Destroy no Unity
     }
     
 <p> O Script está na camera, aonde vai ocorrer a interação com os gameObjects </p>
-<h2> Tela do Jogo</h2>
+<h3> Tela do Jogo</h3>
 <img src="imgs/telainicial.png">
-
+<p> Link do Projeto no Drive: https://drive.google.com/file/d/1ulRud4pDE5dCI838vr6EVnxl-5obeqHA/view?usp=sharing </p>
+<p> Link do Vídeo do Projeto: https://youtu.be/IKbZMjuVUCI </p>
