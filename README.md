@@ -13,21 +13,13 @@ Conceitos de Raycast, Prefabs e Destroy no Unity
             {
                 // Quando for clicado, irá verificar primeiro a tag do gameObject
                 string tag = hit.collider.tag;
-                GameObject esfera = hit.transform.gameObject;
+                GameObject volinho = hit.transform.gameObject;
                 // o gameObject foi clicacado e irá fazer uma ação de acordo com a tag especifica
                 if (tag == "destroy")
                 {
                     Debug.Log("Acertou!");
-                    Destroy(esfera);
-                } else
-                if(tag == "manter")
-                {
-                    Debug.Log("Acertou");
-                } else
-                if(tag == "mensagem") 
-                {
-                    Debug.Log("Moro numa linda bola azul, que flutua pelo espa�o");
-                }
+                    Destroy(bolinho);
+                } 
                 // Não acertou o gameObject
                 else
                 {
