@@ -32,7 +32,4 @@ Conceitos de Raycast, Prefabs e Destroy no Unity
 <p> O Script está na camera, aonde vai ocorrer a interação com os gameObjects </p>
 <h2> Tela do Jogo</h2>
 <img src="imgs/telainicial.png">
-<h2> Prefabs </h2>
-<img src="imgs/prefabs.png">
-<h2> Hierarquia </h2>
-<img src="imgs/hierarquia.png">
+
